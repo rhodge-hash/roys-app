@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e9ecef;
+    color: #343a40;
+    line-height: 1.6;
+}
+
+#app {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+#app h1, #app h2, #app h3 {
+    color: #0056b3;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+#app p {
+    margin-bottom: 1em;
+}
+
+#app pre {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    padding: 15px;
+    overflow-x: auto;
+}
+
+#app code {
+    font-family: 'Fira Code', 'Consolas', 'Monaco', monospace;
+    background-color: #e9ecef;
+    padding: 2px 4px;
+    border-radius: 3px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    #app {
+        margin: 10px;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    #app {
+        padding: 15px;
+    }
+}
