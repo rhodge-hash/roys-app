@@ -19,5 +19,3 @@ export function initializeApp() {
             appDiv.innerHTML = '<p>Error loading content.</p>';
         });
 }
-
-document.addEventListener('DOMContentLoaded', initializeApp);
